@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   # root "posts#index"
   root 'pages#index'
 
+
+  get 'beausorin', to: 'pages#beausorin', as: 'beausorin'
+
   get 'jordan', to: 'pages#jordan', as: 'jordan'
+
 
 end
