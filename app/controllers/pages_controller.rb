@@ -2,6 +2,10 @@ class PagesController < ApplicationController
   def index
   end
 
+
+  def jeralyns
+  end
+
   def beausorin
   end
   
@@ -10,5 +14,6 @@ class PagesController < ApplicationController
 
   def jordan
   end
+
 
 end

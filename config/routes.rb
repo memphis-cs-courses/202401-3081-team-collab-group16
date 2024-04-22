@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   root 'pages#index'
 
 
+  get 'jeralyns', to: 'pages#jeralyns', as: 'jeralyns'
+
   get 'beausorin', to: 'pages#beausorin', as: 'beausorin'
 
   get 'jordan', to: 'pages#jordan', as: 'jordan'
