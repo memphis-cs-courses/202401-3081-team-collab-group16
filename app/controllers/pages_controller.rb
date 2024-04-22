@@ -3,6 +3,12 @@ class PagesController < ApplicationController
   end
 
   def beausorin
-
   end
+  
+  def mrkobo
+  end
+
+  def jordan
+  end
+
 end
